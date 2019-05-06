@@ -1,0 +1,552 @@
+EXPORT HEADER
+    5a                   Summary 901             06/03/1995 20:28:06
+
+RESULTS
+ AGV             AGV-132             
+   state           pie    0
+ Robot           RobCizallado        
+   level           val        3    0   .3333   0.    0.     1.0    .333   .333 
+   delay           hist   1      1.000      -.000        3
+    90.476  9.5238   0.    
+   delay           val        3    0   0.      0.    0.     0.     0.     0.   
+   no. released    count     700   0.       0
+ Robot           RobEmbuticion       
+   level           val        3    0   .2727   0.    0.     1.0    .273   .273 
+   delay           hist   1      1.000      -.000        3
+    27.778  2.3333  69.889 
+   delay           val        3    0  63.361  7.138  0.    246.8  45.63  81.09 
+   no. released    count     900   0.       0
+ conveyor        CintasLocas         
+   level           val        3    0  8.5538   .489  0.     107   7.339  9.768 
+   delay           hist   1      1.000      -.000        3
+    83.670  10.800  5.5299 
+   delay           val        3    0  6.4880   .503    0   353.4  5.237  7.738 
+   no. released    count    5615  20.261    0
+ conveyor        CintasPlanchado     
+   level           val        3    0   .5625   0.    0.     2.0    .562   .562 
+   delay           hist  14     14.038      0.           3
+   0.   81 4.2 2.1 0.  0.  2.1 2.1 0.  0.  2.1 0.  2.1 2.1 2.1 0.  
+   delay           val        3    0  2.1621   .959   .99  14.04     0   4.545 
+   no. released    count      16   0.       0
+ courier         AGVAsas             
+   state           pie    0
+ courier         AGVEmbuticion       
+   state           pie    0
+ courier         AGVPlanchas         
+   state           pie    0
+ courier         GruaBobinas         
+   state           pie    0
+ pad             pad-Cizallado       
+   level           val        3    0   0.      0.    0.     0.     0.     0.   
+ pad             pad-Desbobinar      
+   level           val        3    0   0.      0.    0.     0.     0.     0.   
+ pad             pad-Prensar         
+   level           val        3    0   0.      0.    0.     0.     0.     0.   
+ part            AsaCacerola         
+   makespan        val        3    0  761.18  56.16  12.7   1329  621.6  900.7 
+   no. to exit     count     309  14.742    0
+   state           pie    3
+                            request               3.471  1.965 
+                            busy                   .545   .063 
+                            idle                  95.98  2.017 
+ part            AsaCacerola         
+   level           val        3    0   .5069   .012  0.     1.0    .477   .537 
+   no. created     count     300   0.       0
+ part            AsaPaellera         
+   makespan        val        3    0  2144.8  54.07  1041   2392   2010   2279 
+   no. to exit     count     147  13.317    0
+   level           val        3    0   .5830   .027  0.     1.0    .517   .649 
+   state           pie    3
+                            busy                   .092   .013 
+                            request               1.942   .902 
+                            idle                  97.97   .907 
+ part            AsaPaellera         
+   no. created     count     300   0.       0
+ part            AsaSarten           
+   makespan        val        3    0  3207.1  84.32  2798   3658   2998   3417 
+   no. to exit     count      41  6.1101    0
+   level           val        3    0   1.0     0.    1.0    1.0    1.0    1.0  
+   state           pie    3
+                            request               1.752   .518 
+                            busy                   .039   0.   
+                            idle                  98.21   .521 
+ part            AsaSarten           
+   no. created     count     150   0.       0
+ part            AsaWok              
+   makespan        val        3    0  1900.1  40.74   707   2960   1799   2001 
+   no. to exit     count     294  8.7178    0
+   level           val        3    0   .6676   0.    0.     1.0    .668   .668 
+   state           pie    3
+                            busy                   .209   .012 
+                            request               3.511  1.010 
+                            idle                  96.28  1.009 
+ part            AsaWok              
+   no. created     count     300   0.       0
+ part            BobinaCacerola      
+   makespan        val        3    0  241.17  6.298   224  251.9  225.5  256.8 
+   no. to exit     count       3   0.       0
+   state           pie    3
+                            blocked                .718   .024 
+                            request                0.     0.   
+                            busy                  99.28   .026 
+ part            BobinaCacerola      
+   no. created     count       2   0.       0
+ part            BobinaPaellera      
+   state           pie    3
+                            blocked                .639   0.   
+                            busy                  76.29  1.138 
+                            request               23.07  1.140 
+ part            BobinaPaellera      
+   makespan        val        3    0  312.95  1.920   308  317.7  308.2  317.7 
+   no. to exit     count       2   0.       0
+   no. created     count       2   0.       0
+ part            BobinaSarten        
+   state           pie    3
+                            blocked                .836   .013 
+                            request                0.     0.   
+                            busy                  99.16   0.   
+ part            BobinaSarten        
+   makespan        val        3    0  239.18  3.771   235  245.8  229.8  248.6 
+   no. to exit     count       2   0.       0
+   no. created     count       2   0.       0
+ part            BobinaWok           
+   state           pie    3
+                            blocked                .727   0.   
+                            busy                  86.56  1.657 
+                            request               12.71  1.659 
+ part            BobinaWok           
+   makespan        val        3    0  275.19  2.165   270  284.6  269.8  280.6 
+   no. to exit     count       2   0.       0
+   no. created     count       2   0.       0
+ part            Cacerola            
+   state           pie    2
+                            idle                   100    0.   
+                            request                0.     0.   
+ part            Cacerola            
+   no. created     count     154  7.3711    0
+ part            CacerolaEmbutida    
+   makespan        val        3    0  820.50  14.07   420   1301  785.5  855.4 
+   no. to exit     count     200   0.       0
+   state           pie    2
+                            busy                  8.640   .204 
+                            request               91.36   .205 
+ part            CacerolaEmbutida    
+   no. created     count     300   0.       0
+ part            CacerolaNoOK        
+   makespan        val        3    0  812.54  19.04   420   1235  765.2  859.9 
+   no. to exit     count      46  7.3711    0
+   state           pie    1
+                            request                100    0.   
+ part            CacerolaNoOK        
+   no. created     count      46  7.3711    0
+ part            CacerolaOK          
+   makespan        val        3    0  876.34  15.33   427   1623  838.3  914.4 
+   no. to exit     count     154  7.3711    0
+   state           pie    2
+                            busy                  12.99  10.15 
+                            request               87.01  10.15 
+ part            CacerolaOK          
+   no. created     count     154  7.3711    0
+ part            Paellera            
+   state           pie    2
+                            idle                   100    .011 
+                            request                0.     0.   
+ part            Paellera            
+   no. created     count      73  6.6583    0
+ part            PaelleraEmbutida    
+   makespan        val        3    0  2127.1  6.824  1879   2310   2110   2144 
+   no. to exit     count     139   7.0      0
+   state           pie    2
+                            request               33.31   .678 
+                            busy                  66.69   .679 
+ part            PaelleraEmbutida    
+   no. created     count     200   0.       0
+ part            PaelleraNoOK        
+   makespan        val        3    0  2104.7  15.00  1903   2303   2067   2142 
+   no. to exit     count      34  9.8658    0
+   state           pie    1
+                            request                100    0.   
+ part            PaelleraNoOK        
+   no. created     count      34  9.8658    0
+ part            PaelleraOK          
+   makespan        val        3    0  2167.0  34.26  1896   2392   2082   2252 
+   no. to exit     count      73  6.6583    0
+   state           pie    2
+                            busy                  5.119  1.976 
+                            request               94.88  1.976 
+ part            PaelleraOK          
+   no. created     count     105  11.504    0
+ part            PlanchaCacerola     
+   makespan        val        3    0  325.51  11.83   224  440.4  296.1  354.9 
+   no. to exit     count     300   0.       0
+   state           pie    2
+                            request               96.12   .166 
+                            busy                  3.875   .167 
+ part            PlanchaCacerola     
+   no. created     count     300   0.       0
+ part            PlanchaPaellera     
+   state           pie    2
+                            busy                  1.393   .086 
+                            request               98.61   .086 
+ part            PlanchaPaellera     
+   makespan        val        3    0  550.90  23.82   442  679.4  491.7  610.1 
+   no. to exit     count     200   0.       0
+   no. created     count     200   0.       0
+ part            PlanchaSarten       
+   state           pie    2
+                            busy                  3.938   .151 
+                            request               96.06   .157 
+ part            PlanchaSarten       
+   makespan        val        3    0  323.59  2.066   235  412.9  318.5  328.7 
+   no. to exit     count     200   0.       0
+   no. created     count     200   0.       0
+ part            PlanchaWok          
+   state           pie    2
+                            busy                  1.888   .067 
+                            request               98.11   .065 
+ part            PlanchaWok          
+   makespan        val        3    0  437.71  15.97   349  543.4  398.0  477.4 
+   no. to exit     count     200   0.       0
+   no. created     count     200   0.       0
+ part            Sarten              
+   state           pie    2
+                            idle                   100    0.   
+                            request                0.     0.   
+ part            Sarten              
+   no. created     count      41  6.1101    0
+ part            SartenEmbutida      
+   makespan        val        3    0  3265.1  50.15  2786   3656   3141   3390 
+   no. to exit     count      90  6.0828    0
+   state           pie    2
+                            request               21.09   .431 
+                            busy                  78.91   .433 
+ part            SartenEmbutida      
+   no. created     count     200   0.       0
+ part            SartenNoOK          
+   makespan        val        3    0  3286.9  86.15  2816   3652   3073   3501 
+   no. to exit     count      21  4.5826    0
+   state           pie    1
+                            request                100    0.   
+ part            SartenNoOK          
+   no. created     count      21  4.5826    0
+ part            SartenOK            
+   makespan        val        3    0  3207.1  84.32  2798   3658   2998   3417 
+   no. to exit     count      41  6.1101    0
+   state           pie    2
+                            busy                  2.236   .468 
+                            request               97.76   .467 
+ part            SartenOK            
+   no. created     count      69  9.8489    0
+ part            Wok                 
+   state           pie    2
+                            idle                   100    0.   
+                            request                0.     0.   
+ part            Wok                 
+   no. created     count     147  4.3589    0
+ part            WokEmbutido         
+   makespan        val        3    0  1839.6  14.72  1572   2147   1803   1876 
+   no. to exit     count     200   0.       0
+   state           pie    2
+                            request               10.44  1.058 
+                            busy                  89.56  1.058 
+ part            WokEmbutido         
+   no. created     count     200   0.       0
+ part            WokNoOK             
+   makespan        val        3    0  1831.8  24.51  1572   2147   1771   1893 
+   no. to exit     count      49  3.7859    0
+   state           pie    1
+                            request                100    0.   
+ part            WokNoOK             
+   no. created     count      49  3.7859    0
+ part            WokOK               
+   makespan        val        3    0  1943.5  17.12  1604   2960   1901   1986 
+   no. to exit     count     147  4.3589    0
+   state           pie    2
+                            busy                  5.968  1.903 
+                            request               94.03  1.903 
+ part            WokOK               
+   no. created     count     151  3.7859    0
+ queue           AlmacenFinal        
+   level           val        3    0  208.5   3.969  1.0    425   198.6  218.4 
+ queue           AlmacenIntermedio   
+   level           val        3    0    50     0.    0.     100     50     50  
+   delay           hist   1      1.000      -.000        3
+    92.593  7.4074   0.    
+   delay           val        3    0   0.      0.    0.     0.     0.     0.   
+   no. released    count     900   0.       0
+ queue           BuffAsasCacerolas   
+   level           val        3    0    75     0.    0.     150     75     75  
+   delay           hist   1      1.000      0.           3
+      100    0.      0.    
+   delay           val        3    0   0.      0.    0.     0.     0.     0.   
+   no. released    count     300   0.       0
+ queue           BuffAsasPaelleras   
+   level           val        3    0    75     0.    0.     150     75     75  
+   delay           hist   1      1.000      0.           3
+      100    0.      0.    
+   delay           val        3    0   0.      0.    0.     0.     0.     0.   
+   no. released    count     300   0.       0
+ queue           BuffAsasSartenes    
+   level           val        3    0   37.5    0.    0.      75   37.5   37.5  
+   delay           hist   1      1.000      0.           3
+      100    0.      0.    
+   delay           val        3    0   0.      0.    0.     0.     0.     0.   
+   no. released    count     150   0.       0
+ queue           BuffAsasWoks        
+   level           val        3    0    75     0.    0.     150     75     75  
+   delay           hist   1      1.000      0.           3
+      100    0.      0.    
+   delay           val        3    0   0.      0.    0.     0.     0.     0.   
+   no. released    count     300   0.       0
+ queue           BufferAntiadherente 
+   level           val        3    0  35.245  1.093  0.      90   32.53  37.96 
+   delay           hist  20    142.057    113.920        3
+   49  1  1  1  1  1  1  0  1  1  1  0  1  0  1  0  0  1  1  0  1 38 
+   delay           val        3    0  125.17  3.855  0.    307.1  115.6  134.7 
+   no. released    count     576  3.4641    0
+ queue           BufferCacerolas     
+   level           val        3    0    .5     0.    0.     1.0     .5     .5  
+   delay           hist   1      1.000      0.           3
+      100    0.      0.    
+   delay           val        3    0   0.      0.    0.     0.     0.     0.   
+   no. released    count       2   0.       0
+ queue           BufferCalidad       
+   delay           hist   3      3.938      -.000        3
+    35.604  11.319  2.2681  3.1076  47.701 
+   delay           val        3    0  20.226  10.93    0   123.8    -7   47.39 
+   no. released    count     633  8.5049    0
+   level           val        3    0  7.4971  3.561  0.      46     -1   16.34 
+ queue           BufferEmbuticion    
+   level           val        3    0  42.677   0.    0.      50   42.68  42.68 
+   delay           hist  20     33.709      -.000        3
+    1  1  1  1  0  1  0  0  1  1  0  1  0  1  1  0  0  1  1  1  1 88 
+   delay           val        3    0  69.258  3.438  0.    112.0  60.72  77.80 
+   no. released    count     900   0.       0
+ queue           BufferPaelleras     
+   level           val        3    0    .5     0.    0.     1.0     .5     .5  
+   delay           hist  20     71.088      0.           3
+    0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 17 17 17 33 17 
+   delay           val        3    0  66.848  2.857  58.7  74.85  59.75  73.95 
+   no. released    count       2   0.       0
+ queue           BufferPintado       
+   level           val        3    0  31.677  2.298  0.      71   25.97  37.39 
+   delay           hist  20     68.207      -.000        3
+    1  1  2  1  1  2  2  1  1  1  1  1  1  1  1  2  1  1  1  1  1 77 
+   delay           val        3    0  161.32  16.03  0.    333.2  121.5  201.1 
+   no. released    count     200   0.       0
+ queue           BufferPulido        
+   level           val        3    0  73.547  2.171   16    100   68.15  78.94 
+   delay           hist  20    242.405    168.578        3
+   17  1  1  0  0  1  0  1  0  0  1  1  1  0  1  1  0  1  1  1  1 71 
+   delay           val        3    0  338.11  7.020  86.7  557.0  320.7  355.5 
+   no. released    count     554  3.2146    0
+ queue           BufferReciclaje     
+   delay           hist   1       .000      -.000        3
+    70.403  7.8522  21.745 
+   delay           val        3    0   0.      0.      0    .000   0.     0.   
+   no. released    count     150  13.577    0
+   level           val        3    0   .5025   0.    0.     2.0    .502   .503 
+ queue           BufferRemachado     
+   delay           hist  20    455.167      -.000        3
+   16  9  2  2  1  1  1  1  0  0  0  0  0  0  0  6  0  0  0  0  0 58 
+   delay           val        3    0  948.22  19.42    0    3660  900.0  996.5 
+   no. released    count    1723  51.811    0
+   level           val        3    0  678.28  11.41   50    916   649.9  706.6 
+ queue           BufferSartenes      
+   level           val        3    0    .5     0.    0.     1.0     .5     .5  
+   delay           hist   1      1.000      0.           3
+      100    0.      0.    
+   delay           val        3    0   0.      0.    0.     0.     0.     0.   
+   no. released    count       2   0.       0
+ queue           BufferTaladrado     
+   level           val        3    0  6.9530  2.727  0.      33    .177  13.73 
+   delay           hist   6      6.293      -.000        3
+    13.556  6.5926  6.0741  5.5556  5.6667  5.7778  4.4074  52.370 
+   delay           val        3    0  11.057  4.315    0   53.10   .336  21.78 
+   no. released    count     900   0.       0
+ queue           BufferWoks          
+   level           val        3    0    .5     0.    0.     1.0     .5     .5  
+   delay           hist  20     33.900      0.           3
+    0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 17  0  0 33 17 17 17 
+   delay           val        3    0  31.064  3.483  25.3  36.98  22.41  39.72 
+   no. released    count       2   0.       0
+ queue           PalePlanchas        
+   level           val        3    0    50     0.    0.     100     50     50  
+   delay           hist   1      1.000      -.000        3
+    92.593  7.4074   0.    
+   delay           val        3    0   0.      0.    0.     0.     0.     0.   
+   no. released    count     900   0.       0
+ station         Antiadherente       
+   level           val        3    0  1.4867   0.    0.     2.0   1.487  1.487 
+   state           pie    3
+                            idle                  26.39   .255 
+                            request                0.     0.   
+                            busy                  73.61   .254 
+ station         Antiadherente       
+   delay           hist  11     13.072      1.802        3
+     .5  1.5  3.8  7.7   15   19   20   17  9.6  4.6  2.2   .2   .1 
+   delay           val        3    0  7.0558   .065  0.    14.00  6.894  7.217 
+   no. released    count     576  3.4641    0
+ station         Calidad             
+   delay           hist  20     26.409      -.000        3
+   44 16  2  2  2  3  2  3  2  2  3  2  2  2  2  2  2  1  1  1  1  3 
+   delay           val        3    0  5.4694   .219    0   44.41  4.926  6.013 
+   no. released    count     629  8.8882    0
+   state           pie    4
+                            request                0.     0.   
+                            blocked                0.     0.   
+                            busy                  61.01   .666 
+                            idle                  38.99   .666 
+ station         Calidad             
+   level           val        3    0  3.5219   .034  0.     5.0   3.438  3.606 
+ station         Cizallado           
+   level           val        3    0  50.527   .020  0.     101   50.48  50.58 
+   state           pie    4
+                            request                0.     0.   
+                            blocked                0.     0.   
+                            idle                  74.66   .120 
+                            busy                  25.33   .123 
+ station         Cizallado           
+   delay           hist  20     74.764      -.000        3
+   92  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1 
+   delay           val        3    0   .7816   0.    0.    84.86   .782   .782 
+   no. released    count       9   0.       0
+ station         Desbobinadora       
+   state           pie    3
+                            request                0.     0.   
+                            busy                  21.86   .538 
+                            idle                  78.14   .538 
+ station         Desbobinadora       
+   level           val        3    0    .5     0.    0.     1.0     .5     .5  
+   delay           hist  20     82.188      0.           3
+    0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 17 17 46 21 
+   delay           val        3    0  78.905  1.928  70.3  82.88  74.11  83.70 
+   no. released    count       8   0.       0
+ station         Embutidora          
+   state           pie    4
+                            request                0.     0.   
+                            blocked                0.     0.   
+                            busy                  50.27  2.315 
+                            idle                  49.72  2.316 
+ station         Embutidora          
+   level           val        3    0  1.9944   0.    0.     3.0   1.994  1.994 
+   delay           hist   7      7.535      -.000        3
+    51.352  11.315  6.8148  7.3333  7.0370  5.6111  4.2037  3.0556  3.2778 
+   delay           val        3    0  1.6204   .062    0   11.75  1.466  1.775 
+   no. released    count     900   0.       0
+ station         Horno               
+   delay           hist  20   1248.696   1166.791        3
+    6  2  4  4  6  5  9  9  7  7  9  6  6  6  4  3  3  2  1  0  1  0 
+   delay           val        3    0  1198.6  1.564  1142   1252   1195   1203 
+   no. released    count     170  7.5056    0
+   state           pie    2
+                            request                0.     0.   
+                            busy                   100    0.   
+ station         Horno               
+   level           val        3    0  85.295  1.151   54    100   82.43  88.15 
+ station         Horno2              
+   delay           hist  20   1241.478   1168.741        3
+    5  2  3  4  5  4  6  7  9  8  7  5  7  9  5  4  4  3  1  1  1  2 
+   delay           val        3    0  1200.9  2.627  1140   1262   1194   1207 
+   level           val        3    0  73.105  4.223   40    100   62.61  83.60 
+   no. released    count     142  9.0738    0
+   state           pie    2
+                            request                0.     0.   
+                            busy                   100    .040 
+ station         Horno3              
+   delay           hist  20   1238.398   1134.600        3
+    0  0  0  0  0  1  2  3  3  4  8  9 10 10 10 11  8  7  4  4  3  2 
+   delay           val        3    0  1201.3   .278  1135   1275   1201   1202 
+   no. released    count     173  3.6056    0
+   state           pie    2
+                            request                0.     0.   
+                            busy                   100    .031 
+ station         Horno3              
+   level           val        3    0  85.415   .668   54    100   83.76  87.07 
+ station         Horno4              
+   delay           hist  20   1220.464   1169.878        3
+    8  2  2  2  2  3  4  4  4  6  3  5  7  4  4  5  6  3  5  2  3 18 
+   delay           val        3    0  1200.4  1.154  1108   1258   1198   1203 
+   level           val        3    0  74.167  4.440   42    100   63.14  85.20 
+   no. released    count     149  3.2146    0
+   state           pie    2
+                            request                0.     0.   
+                            busy                   100    .027 
+ station         Pintado             
+   state           pie    3
+                            request                0.     0.   
+                            busy                  34.98   .916 
+                            idle                  65.02   .916 
+ station         Pintado             
+   level           val        3    0    .5     0.    0.     1.0     .5     .5  
+   delay           hist   5      8.881      3.117        3
+    14.167  18.833    27      20    11.167   5.5    3.3333 
+   delay           val        3    0  5.0701   .167    0   9.871  4.655  5.485 
+   no. released    count     200   0.       0
+ station         Prensadora          
+   state           pie    3
+                            request                0.     0.   
+                            busy                  22.46   .490 
+                            idle                  77.54   .488 
+ station         Prensadora          
+   level           val        3    0   .7083   .144  0.     2.0    .350  1.067 
+   delay           hist  20     84.821      0.           3
+    0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 17 25 54  4 
+   delay           val        3    0  80.036   .707  72.9  84.82  78.28  81.79 
+   no. released    count       8   0.       0
+ station         Pulido              
+   level           val        3    0  1.4987   0.    0.     2.0   1.499  1.499 
+   state           pie    2
+                            request                0.     0.   
+                            busy                   100    0.   
+ station         Pulido              
+   delay           hist  16     20.095      3.163        3
+   8.5 3.6 4.6 5.7 7.6 8.1 8.2 7.9 8.6 7.2 6.5 5.4 5.0 4.3 2.6 2.2 2.1 1.9 
+   delay           val        3    0  10.103   .068    0   27.58  9.933  10.27 
+   no. released    count     554  3.2146    0
+ station         PulidoArena         
+   state           pie    3
+                            request                0.     0.   
+                            busy                  54.33  1.893 
+                            idle                  45.67  1.893 
+ station         PulidoArena         
+   level           val        3    0  4.6591   .107  0.      10   4.393  4.925 
+   delay           hist  15     25.494      9.621        3
+   2.5 3.9 7.1 9.7  12  14  14  12  10 6.1 3.9 2.6  .9  .2  .3  .1 0.  
+   delay           val        3    0  14.973   .110  4.94  25.49  14.70  15.25 
+   no. released    count     452  14.572    0
+ station         PulidoArena2        
+   state           pie    3
+                            request                0.     0.   
+                            busy                  54.10  2.064 
+                            idle                  45.90  2.064 
+ station         PulidoArena2        
+   level           val        3    0  4.7045   .238  0.      10   4.112  5.297 
+   delay           hist  12     21.441      9.314        3
+    2.9  2.7  5.7  7.3  9.2   13   14   12   12  7.7  5.5  3.9  1.6  1.6 
+   delay           val        3    0  15.009   .085  4.22  24.23  14.80  15.22 
+   no. released    count     448  14.572    0
+ station         Remachado           
+   delay           hist   8      8.823      -.000        3
+    36.83  14.49  2.973  5.572  9.246  10.07  9.879  6.656  2.843  1.442 
+   delay           val        3    0  2.5104   .041    0   10.87  2.407  2.613 
+   no. released    count     416  7.9373    0
+   state           pie    4
+                            request                0.     0.   
+                            blocked                0.     0.   
+                            busy                  57.15  1.939 
+                            idle                  42.85  1.939 
+ station         Remachado           
+   level           val        3    0   1.0     0.    0.     2.0    1.0    1.0  
+ station         Taladrado           
+   state           pie    3
+                            request                0.     0.   
+                            busy                  50.92  1.313 
+                            idle                  49.08  1.313 
+ station         Taladrado           
+   level           val        3    0  1.4511   .014  0.     2.0   1.417  1.486 
+   delay           hist   7      7.697      -.000        3
+    5.6296  9.5926  17.333  22.852  20.556  13.296  6.8519  2.5556  1.3333 
+   delay           val        3    0  3.1145   .030    0   9.711  3.040  3.189 
+   no. released    count     900   0.       0
+
